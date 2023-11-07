@@ -27,7 +27,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'cse110.lab6.QuickStart'
+    mainClass = 'cse110.lab6.Create'
 }
 
 tasks.named('test') {

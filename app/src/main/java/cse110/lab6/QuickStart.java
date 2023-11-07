@@ -1,5 +1,4 @@
 package cse110.lab6;
-
 import static com.mongodb.client.model.Filters.eq;
 
 
@@ -17,7 +16,7 @@ public class QuickStart {
 
 
        // Replace the placeholder with your MongoDB deployment's connection string
-       String uri = "mongodb+srv://cshukla:dojacat123@cluster0.uw5iowu.mongodb.net/?retryWrites=true&w=majority";
+       String uri = "<connection string uri>";
 
 
        try (MongoClient mongoClient = MongoClients.create(uri)) {
@@ -34,4 +33,6 @@ public class QuickStart {
        }
    }
 }
+
+
 
